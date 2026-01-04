@@ -1,0 +1,11 @@
+We initially explored using an LLM to perform topic modeling in a manner similar to LDA or BERTopic — first generating a global list of topics from the dataset, and then assigning those topics to individual rows. However, we quickly ran into practical limitations.
+
+Because of the context length constraints of all current LLMs, the model could only process a small subset of the dataset at once. In trial runs, anything above roughly 100 rows led to degraded outputs, with the model producing vague or incoherent results. At 100 rows, the LLM could generate a topic list, but the list was too short to meaningfully represent the full dataset, and the model was unable to reliably label those rows with the discovered topics.
+
+This left two problems:
+
+Larger input batches caused the model to fail to produce coherent topics.
+
+Smaller batches limited topic diversity and coverage.
+
+To work around these issues, we abandoned the idea of building a single, fixed topic list up front. Instead, we had the LLM process each row independently, asking it to produce five topics for that row. This approach removed the context size bottleneck, ensured consistent per-row outputs, and allowed us to generate a much larger and richer set of topic candidates.

@@ -1,0 +1,15 @@
+{
+  "num_docs_processed": 3034,
+  "num_topics_input": 20000,
+  "num_topics_kept": 20000,
+  "Coherence scores": {
+    "c_v": 0.5138215460437652,
+    "c_npmi": -0.0008929879222619638,
+    "u_mass": -2.8716938455773366,
+    "c_uci": -1.507105616478292
+  },
+  "Diversity scores": {
+    "topic_diversity" : 0.0149,
+    "avg_pairwise_jaccard_distance" : 0.8809
+  }
+}

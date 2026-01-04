@@ -1,0 +1,15 @@
+Deepseek metrics
+
+topics evaluated 20,000
+topics kept 19999
+
+📊 COHERENCE SCORES:
+      C_V: 0.4803
+   U_MASS: -3.0198
+   C_NPMI: -0.0082
+    C_UCI: -1.2881
+
+🌈 DIVERSITY SCORES:
+  topic_diversity: 0.0122
+  avg_pairwise_jaccard_distance: 0.9410
+

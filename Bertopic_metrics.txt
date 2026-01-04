@@ -1,0 +1,11 @@
+Bertopic metrics
+
+📊 COHERENCE SCORES:
+  C_V: 0.5643
+  C_NPMI: 0.0699
+  C_UCI: 0.2519
+U_MASS: -0.4040
+
+🌈 DIVERSITY SCORES:
+  topic_diversity: 0.4538
+  avg_pairwise_jaccard_distance: 0.9016

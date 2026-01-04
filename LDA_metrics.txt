@@ -1,0 +1,15 @@
+LDA METRICS
+
+Topics evaluated: 19656
+Text documents: 19656
+Dictionary size: 17369
+
+COHERENCE SCORES:
+      C_V: 0.5750
+   U_MASS: -1.2596
+   C_NPMI: 0.0763
+    C_UCI: 0.3734
+
+DIVERSITY SCORES:
+  topic_diversity: 0.3500
+  avg_pairwise_jaccard_distance: 0.9110
